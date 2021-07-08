@@ -123,7 +123,7 @@
     .creations-link {
         position: absolute;
         bottom: 96px;
-        /* left: 55%; */
+        left: 37%;
     }
 
     .first {
@@ -182,6 +182,10 @@
 
     .creations-title-name {
         font-size: 32px;
+    }
+
+    .creations-link {
+        left: 32%;
     }
 
     .img-name {
