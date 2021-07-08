@@ -1,0 +1,192 @@
+@media (max-width: 1199px){
+    .container {
+        max-width: 900px;
+    }
+
+    .img img {
+        width: 200px;
+    }
+
+    .about-text {
+        right: 0;
+    }
+
+    .img h3 {
+        left: 20px;
+    }
+
+}
+
+@media (max-width: 991px){
+
+    .container {
+        max-width: 700px;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    .wrap .img:nth-child(1), .wrap .img:nth-child(2) {
+        margin-bottom: 30px;
+    }
+
+    #about {
+        padding: 100px 0;
+    }
+
+    .about-text {
+        position: static;
+        width: 500px;
+        padding: 0;
+        margin: 50px auto 0;
+    }
+
+    .gadjet img {
+        width: 700px;
+    }
+
+    .footer-row {
+        display: block;
+    }
+
+    .left, .right {
+        text-align: center;
+    }
+
+    .footer-line {
+        display: block;
+        padding-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .footer-address {
+        margin: 50px 0 18px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .header-link {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .intro {
+        padding-bottom: 100px;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+    .border-title {
+        width: 500px;
+        margin: 130px auto;
+    }
+
+    .title {
+        font-size: 56px;
+    }
+
+    .gadjet {
+        text-align: center;
+    }
+
+    .gadjet img {
+        width: 500px;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .creations {
+        position: relative;
+    }
+
+    .creations-link {
+        position: absolute;
+        bottom: 96px;
+        /* left: 55%; */
+    }
+
+    .first {
+        margin: 0;
+    }
+
+    .img {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 565px){
+
+    .intro {
+        padding: 40px 0 50px;
+    }
+
+    .container {
+        max-width: 400px;
+    }
+
+    .border-title, .gadjet img, .about-text {
+        width: 400px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .about-text h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px){
+
+    .container {
+        max-width: 320px;
+    }
+
+    .border-title {
+        padding: 24px;
+    }
+
+    .gadjet img {
+        width: 320px;
+    }
+
+    #about {
+        padding: 70px 0;
+    }
+
+    .about-text {
+        width: 280px;
+    }
+
+    .creations-title-name {
+        font-size: 32px;
+    }
+
+    .img-name {
+        font-size: 24px;
+        width: 140px;
+        bottom: 20px;
+    }
+}
