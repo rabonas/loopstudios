@@ -177,13 +177,11 @@ h1, h2, h3 {
 
 .img:hover .img-name {
     color: #000000;
-    /* transform: scale(1); */
 }
 
 .img:hover .hover-effect {
     background: rgba(255, 255, 255, 0.75071);
     transform: scale(1);
-    /* color: #000; */
 }
 
 

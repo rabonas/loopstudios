@@ -12,22 +12,24 @@
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-    <header class="intro">
+    <header  id="mainHeader"  class="intro">
 
         <div class="container">
 
             <div class="row">
               <div class="logo">
                 <a href="#"><img src="./img/logo.svg" alt="logo"></a>
+                <button class="menu-toggle open" onclick="openMenu()"><img src="img/menu.png" alt=""></button>
+                <button class="menu-toggle close" onclick="closeMenu()"><img src="img/close.svg" alt=""></button>
             </div>
 
-            <nav class="header-nav">
+            <nav id="mainnav" class="header-nav">
                 <a href="#about" class="header-link line">About</a>
                 <a href="#" class="header-link line">Careers</a>
                 <a href="#" class="header-link line">Events</a>
                 <a href="#" class="header-link line">Products</a>
                 <a href="#links" class="header-link line">Support</a>
-                <a href="#"><img src="./img/menu.png" alt="menu" class="menu"></a>
+                <!-- <a href="#"><img src="./img/menu.png" alt="menu" class="menu"></a> -->
             </nav>
             </div>
 
@@ -171,6 +173,23 @@
       </div>
 
     </footer>
+
+    <script>
+
+      const menu = document.getElementById('mainnav');
+      const header = document.getElementById('mainHeader');
+
+      function openMenu() {
+          menu.style.display = 'block';
+          header.classList = 'intro on';
+      }
+
+      function closeMenu() {
+          menu.style.display = 'none';
+          header.classList = 'intro';
+      }
+
+  </script>
 
     
 </body>
