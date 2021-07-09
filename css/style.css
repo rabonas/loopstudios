@@ -44,7 +44,8 @@ h1, h2, h3 {
     display: inline-block;
     padding-left: 32px;
     font-size: 15px;
-    color: #fff;
+    color: #fff; 
+   
 }
 
 .menu {
@@ -53,16 +54,18 @@ h1, h2, h3 {
 
 .line {
     position: relative;
+    
 }
 
 .line::after {
     content: "";
-    display: none;
     width: 24px;
     height: 2px;
     background-color: #fff;
     position: absolute;
     bottom: -8px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
 }
 
 .header-link::after {
@@ -70,7 +73,7 @@ h1, h2, h3 {
 }
 
 .line:hover::after {
-    display: block;
+    transform: scaleX(1);
 }
 
 .border-title {
@@ -149,7 +152,7 @@ h1, h2, h3 {
 }
 
 .first {
-    margin-bottom: 30px;
+    width: 100%;
 }
 
 .wrap {
@@ -158,6 +161,7 @@ h1, h2, h3 {
 
 .img {
     position: relative;
+    margin-bottom: 30px;
 }
 
 .hover-effect {
@@ -167,14 +171,18 @@ h1, h2, h3 {
     left: 0;
     right: 0;
     background: rgba(255, 255, 255, 0);
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
 }
 
 .img:hover .img-name {
     color: #000000;
+    /* transform: scale(1); */
 }
 
 .img:hover .hover-effect {
     background: rgba(255, 255, 255, 0.75071);
+    transform: scale(1);
     /* color: #000; */
 }
 
@@ -189,6 +197,8 @@ h1, h2, h3 {
     margin: 0;
     text-transform: uppercase;
     color: #fff;
+    /* transform: scale(0); */
+    transition: 0.5s ease-in-out;
 }
 
 .img .grid {

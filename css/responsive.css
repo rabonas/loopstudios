@@ -68,6 +68,11 @@
         margin-bottom: 16px;
     }
 
+    .footer-line::after {
+        left: 50%;
+        margin-left: -12px;
+    }
+
     .footer-address {
         margin: 50px 0 18px;
     }
@@ -121,9 +126,8 @@
     }
 
     .creations-link {
-        position: absolute;
-        bottom: 96px;
-        left: 37%;
+        order: 1;
+        margin: auto;
     }
 
     .first {
@@ -133,6 +137,7 @@
     .img {
         margin-bottom: 24px;
     }
+
 }
 
 @media (max-width: 565px){
@@ -184,9 +189,9 @@
         font-size: 32px;
     }
 
-    .creations-link {
+    /* .creations-link {
         left: 32%;
-    }
+    } */
 
     .img-name {
         font-size: 24px;
