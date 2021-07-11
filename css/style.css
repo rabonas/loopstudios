@@ -48,9 +48,13 @@ h1, h2, h3 {
    
 }
 
-.menu {
+.menu-toggle {
     display: none;
 }
+
+/* .menu {
+    display: none;
+} */
 
 .line {
     position: relative;
